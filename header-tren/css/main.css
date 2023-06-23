@@ -1,0 +1,39 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+body {
+	color: white;
+}
+
+header {
+	height: 50px;
+	background-color: black;
+	display: flex;
+	justify-content: center;
+}
+
+.navbar-s li {
+	margin-right: 25px;
+	display: inline-block;
+	vertical-align: middle;
+}
+
+.logo, .navbar-s {
+	margin-right: 25px;
+	vertical-align: middle;
+	display: inline-block;
+}
+
+.navbar-s a {
+	vertical-align: middle;
+	font-family: arial;
+	font-size: 15px;
+	color: white;
+	text-decoration: none;
+}
+
+.navbar-s a:hover {
+	text-decoration: underline;
+	color: green;
+}
